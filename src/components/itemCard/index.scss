@@ -1,0 +1,29 @@
+.itemCard {
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  height: 344px;
+  position: relative;
+  width: 252px;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .desc {
+    font-weight: 300;
+    left: 15px;
+    top: 15px;
+    position: absolute;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 24px;
+    left: 15px;
+    top: 40px;
+    position: absolute;
+  }
+}

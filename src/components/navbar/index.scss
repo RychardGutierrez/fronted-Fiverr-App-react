@@ -7,6 +7,7 @@
   transition: 0.5s all ease;
   position: sticky;
   top: 0;
+  z-index: 999;
 
   &.active {
     background-color: white;
@@ -14,16 +15,17 @@
   }
 
   .container {
-    width: 100%;
+    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 0px;
 
     .logo {
       font-size: 34px;
       font-weight: bold;
 
-      .text {}
+      .text {
+      }
 
       .dot {
         color: #1dbf73;
@@ -35,7 +37,7 @@
       display: flex;
       gap: 24px;
       font-weight: 400;
-      font-family: "Montserrat", sans-serif;
+      font-family: 'Montserrat', sans-serif;
 
       button {
         border-radius: 5px;
